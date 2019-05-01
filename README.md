@@ -10,7 +10,7 @@
 
 - alpine 设置时区，做基础alpine镜像
 - php-base 编译后的php，没有添加扩展
-- php-ext 添加了pdo_mysql、bcmath、intl、gd、opcache、redis、xdebug、memcached待扩展
+- php-ext 添加了pdo_mysql、bcmath、intl、gd、opcache、redis、xdebug、memcached等扩展
 - php-nginx 编译nginx，添中nginx扩展，设置启动脚本 
 
 按照先后顺序，执行build.sh脚本进行编译。
